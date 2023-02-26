@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+
+	box-sizing: border-box;
+}
+
+html {
+	min-height: 100vh;
+}
+
+body {
+	background-image: url(/assets/background.jpg);
+}
+
+.container {
+	position: relative;
+
+	margin: 200px auto auto;
+
+	width: 748px;
+	height: 544px;
+
+	background-image: url(/assets/pokedex.png);
+}
+
+.poke-background {
+	filter: blur(2px);
+
+	margin: 164px 0 0 67px;
+
+	border-radius: 10px;
+}
+
+.poke-img {
+	margin: 157px 0 0 99px;
+
+	width: 175px;
+	height: 175px;
+}
+
+.poke-background,
+.poke-img {
+	position: absolute;
+}
+
+.id-input {
+	position: absolute;
+	bottom: 43px;
+	left: 89px;
+
+	width: 120px;
+	height: 55px;
+
+	background-color: #54aa64;
+	color: #ceff97;
+
+	text-align: center;
+	font-size: 30px;
+
+	border: none;
+	border-radius: 8px;
+}
+
+.confirm-btn {
+	position: absolute;
+	bottom: 123px;
+	left: 46px;
+
+	background-color: #212121;
+
+	border: none;
+	border-radius: 50%;
+
+	font-size: 20px;
+	padding: 2px 3px 6px 5px;
+
+	cursor: pointer;
+}
+
+.poke-name {
+	width: 237px;
+	height: 84px;
+
+	border-radius: 5px;
+
+	position: absolute;
+	right: 62px;
+	top: 179px;
+
+	font-size: 32px;
+
+	padding-top: 25px;
+
+	text-align: center;
+
+	color: #7cb822;
+}
+
+/* GENERAL CONFIGS */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
